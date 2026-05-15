@@ -1,0 +1,185 @@
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background:#fffaf5;
+}
+
+/* Navbar */
+.navbar{
+    background:#111;
+}
+
+.navbar-brand{
+    color:#ff5722 !important;
+    font-size:30px;
+}
+
+.nav-link{
+    color:#fff !important;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#ff9800 !important;
+}
+
+/* Hero */
+.hero-section{
+    min-height:100vh;
+    padding-top:120px;
+    background:#fff3e0;
+}
+
+.hero-section h1{
+    font-size:65px;
+    font-weight:700;
+    color:#111;
+}
+
+.hero-section p{
+    font-size:18px;
+    color:#555;
+    margin:20px 0;
+}
+
+.hero-btn{
+    background:#ff5722;
+    color:#fff;
+    padding:14px 35px;
+    border-radius:40px;
+    font-weight:600;
+}
+
+.hero-btn:hover{
+    background:#111;
+    color:#fff;
+}
+
+.hero-img{
+    border-radius:25px;
+    max-height:550px;
+    object-fit:cover;
+}
+
+/* Common */
+.small-title{
+    color:#ff5722;
+    font-weight:600;
+    letter-spacing:2px;
+}
+
+.main-btn{
+    background:#ff5722;
+    color:#fff;
+    border:none;
+    padding:12px 28px;
+    border-radius:30px;
+}
+
+.main-btn:hover{
+    background:#111;
+    color:#fff;
+}
+
+/* About */
+.about-section h2{
+    font-size:45px;
+    margin:15px 0;
+    color:#111;
+}
+
+.about-section p{
+    color:#666;
+    line-height:1.8;
+}
+
+/* Menu */
+.menu-card{
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.menu-card:hover{
+    transform:translateY(-10px);
+}
+
+.menu-card img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+}
+
+.menu-content{
+    padding:25px;
+}
+
+.price{
+    color:#ff5722;
+    font-size:24px;
+    font-weight:700;
+}
+
+/* Services */
+.services-section{
+    background:#fff3e0;
+}
+
+.service-card{
+    background:#fff;
+    padding:40px 25px;
+    border-radius:20px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.4s;
+}
+
+.service-card:hover{
+    transform:translateY(-10px);
+}
+
+.icon{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+/* Contact */
+.contact-section{
+    background:#fff;
+}
+
+.form-control{
+    padding:15px;
+    border-radius:12px;
+}
+
+/* Footer */
+.footer{
+    background:#111;
+    color:#fff;
+    padding:50px 0;
+}
+
+.footer h3{
+    color:#ff9800;
+    margin-bottom:15px;
+}
+
+.social-links a{
+    color:#fff;
+    text-decoration:none;
+    margin:0 10px;
+}
+
+.social-links a:hover{
+    color:#ff9800;
+}
+</style>
